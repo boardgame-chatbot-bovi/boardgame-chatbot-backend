@@ -1,6 +1,11 @@
-# 🎮 런팟 AI 백엔드 - 보드게임 추천 & 룰 설명
+# 🤖 보드게임 챗봇 백엔드
 
-> **🚀 런팟에서 원클릭 실행 가능한 AI 백엔드 서비스**
+[![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com/)
+[![FAISS](https://img.shields.io/badge/FAISS-Vector%20DB-orange.svg)](https://github.com/facebookresearch/faiss)
+[![RunPod](https://img.shields.io/badge/RunPod-GPU%20Cloud-purple.svg)](https://runpod.io/)
+
+> RAG 시스템을 활용한 보드게임 룰 설명 AI 백엔드 서버
 
 ## ⚡ 빠른 시작 (런팟 SSH)
 
