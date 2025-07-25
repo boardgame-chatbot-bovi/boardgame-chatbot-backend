@@ -1,0 +1,50 @@
+# ⚡ 런팟 원클릭 설치용 requirements.txt
+# git clone 후 pip install -r requirements.txt 한 번만 실행하면 됩니다!
+
+# 🔥 핵심 웹 프레임워크
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+pydantic==2.11.5
+pydantic-settings==2.9.1
+
+# 🤖 AI/ML 핵심 라이브러리 (numpy<2 필수!)
+numpy<2
+torch==2.7.1
+transformers==4.52.4
+sentence-transformers==4.1.0
+faiss-gpu==1.7.2
+safetensors==0.5.3
+tokenizers==0.21.1
+peft==0.15.2
+
+# 🔗 LangChain (RAG 서비스용)
+langchain-core==0.3.64
+langchain-openai==0.2.14
+
+# 🎯 모델 가속화 (파인튜닝용)
+accelerate==1.7.0
+
+# 🌐 네트워킹 & HTTP
+requests==2.31.0
+httpx==0.28.1
+openai==1.58.1
+
+# 📁 파일 & 환경설정
+python-dotenv==1.1.0
+orjson==3.10.18
+aiofiles==24.1.0
+filelock==3.18.0
+
+# ⚡ 성능 최적화
+uvloop==0.21.0
+watchfiles==1.0.5
+psutil==6.1.0
+
+# 🔧 유틸리티 (버전 충돌 해결)
+typing-extensions==4.13.2
+regex==2024.11.6
+tqdm==4.67.1
+PyYAML==6.0.2
+
+# 📦 패키징 (LangChain 호환성을 위해 버전 범위 지정)
+packaging>=23.2,<25.0
